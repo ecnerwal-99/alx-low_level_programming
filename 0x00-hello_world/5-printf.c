@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * Main - Entry point
+ * main - Entry point
  *
- * Description: using the printf function 
+ * Description: using the printf function
  *
  * Return:0
  */
