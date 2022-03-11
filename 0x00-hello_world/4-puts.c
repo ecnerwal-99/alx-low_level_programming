@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
- * using puts function to write a string to the output stream
+ * main - entry point
  *
- * main - Entry point
+ * Description: using puts function to write a string to the out put stream
  *
- * Return: Alway 0 (success)
- *
+ * Return: 0
  */
 int main(void)
 {
