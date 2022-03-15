@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * prototype: print_alphabet
+ * print_alphabet: print_alphabet
  *
- * Description: functions stuff
+ * Description: it prints alphabet in lower case follwed by a new line
  *
  * Return: void
  */
@@ -13,8 +13,7 @@ void print_alphabet(void)
 
 	for(i = 'a'; i <= 'z'; i++)
 	{
-		_putchar('i');
+		_putchar(i);
 	}
 	_putchar('\n');
-	return;
 }
