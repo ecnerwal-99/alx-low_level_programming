@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _abs - check the code
- * int is the type of patameter
+ * @m:  is the type of patameter int
  * Description: absolute
  * Return: 0
  */
