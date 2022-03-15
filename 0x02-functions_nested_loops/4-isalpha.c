@@ -6,7 +6,7 @@
  * Description: it schecls for alphabetic character
  * Return: 0
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	char i;
 	char j;
@@ -16,7 +16,7 @@ int _isalpha(int c);
 	{
 		for (j = 'A'; j <= 'Z'; j++)
 		{
-			if (c == i || c == j)
+			if ((i || j) == c)
 				z = 1;
 		}
 	}
