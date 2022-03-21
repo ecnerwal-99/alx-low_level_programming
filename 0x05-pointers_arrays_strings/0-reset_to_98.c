@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  *main - takes pointer to int as a parameter and converts it to 98
+ *Description:takes pointer to int as a parameter and converts it to 98
  *@n: an integer input pointer
  *Return:void
  */
