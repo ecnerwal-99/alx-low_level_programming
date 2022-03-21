@@ -1,8 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *main - reset_to_98
- *Description: it updates value to 98
+ *main - takes pointer to int as a parameter and converts it to 98
+ *@n: an integer input pointer
+ *Return:void
  */
 void reset_to_98(int *n)
 {
