@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ * @brief 
+ * 
+ */
+int _strlen_recursion(char *s)
+{
+    if(*s == '\0')
+    {
+        return;
+    }
+    return (_strlen_recursion(s + 1));
+}
